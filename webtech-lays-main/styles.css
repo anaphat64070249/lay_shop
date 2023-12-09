@@ -1,0 +1,247 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'IBM Plex Sans Thai', sans-serif;
+}
+
+body {
+    margin: 0 auto;
+    overflow-x: hidden;
+}
+
+.first {
+    height: 100%;
+    width: 100%;
+    min-height: 100vh;
+    background: radial-gradient(#f9d349, 20%, #d57e12);
+    position: relative;
+}
+
+.content {
+    padding-top: 100px;
+    padding-left: 100px;
+}
+
+.content .main-txt {
+    position: relative;
+    z-index: 2;
+    margin-bottom: 50px;
+}
+
+.content .main-txt h1 {
+    font-size: 100px;
+    line-height: 1;
+    color: white;
+    margin: 0px 0px 45px;
+}
+
+.content .main-txt h3 {
+    font-size: 25px;
+    font-weight: 600;
+    color: white;
+}
+
+.content .main-txt p {
+    max-width: 100%;
+    width: 480px;
+    color: white;
+    line-height: 1.8;
+    font-size: 18px;
+    margin-bottom: 50px;
+}
+
+.content .main-txt a {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    background: red;
+    border: 1px solid red;
+    padding: 9px 25px;
+    line-height: 1.4;
+    border-radius: 20px;
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.content .main-txt a:hover {
+    transform: scale(1.2);
+    border: 1px solid white;
+    background: transparent;
+    color: white;
+    transition: .4s;
+}
+
+.social {
+    padding-left: 100px;
+    position: relative;
+    z-index: 2;
+    margin-top: 130px;
+    padding-bottom: 30px;
+}
+
+.img-index {
+    position: absolute;
+    width: 100%;
+    height: 85%;
+    bottom: 0;
+    right: 0;
+    text-align: right;
+    padding-right: 100px;
+}
+
+.img-index img {
+    height: 85%;
+}
+
+#txt-menu {
+    text-align: center;
+    padding-top: 50px;
+    font-size: 50px;
+    color: white;
+}
+
+.button-menu {
+    background-color: #FFB916;
+    border: none;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    border-radius: 50%;
+}
+
+.button-menu:hover {
+    background-color: #FF9900;
+}
+
+
+
+#menu-item {
+    text-align: center;
+}
+
+.container {
+    display: grid;
+    place-items: center;
+}
+
+.section {
+    display: none;
+}
+
+.section.active {
+    display: block;
+}
+
+.nav {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+}
+
+.nav button {
+    background: #ccc;
+    padding: 30px;
+    margin-left: 6px;
+    border-radius: 30%;
+    cursor: pointer;
+    opacity: .5;
+    border: none;
+}
+
+
+.button-active {
+    opacity: 1 !important;
+    visibility: visible;
+}
+
+#txt-rec {
+    color: white;
+    padding-top: 150px;
+    /* text-align: center;  */
+}
+
+#rec {
+    border: 1px solid #d57e12;
+    width: 1200px;
+    border-radius: 20px;
+    background: radial-gradient(#f9d349, 20%, #d57e12);
+    
+}
+
+.all {
+    background-image: url(lay_img/bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#lays {
+    background-image: url(lay_img/bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#txt-item {
+    font-size: 20px;
+}
+
+#login_btn{
+    text-align: center;
+    border-radius: 7px;
+    font-weight: 600;
+    border: #ebad05;
+    background: #DA281B;
+    padding: 4px 30px 4px;
+    color: white;
+    margin-top: -20px;
+    margin-bottom: 35px;
+}
+
+#login_box {
+    background: #FFB916;
+    border-radius: 1em;
+    margin: 3em auto;
+    width: 30%;
+    height: 60%;
+    padding-top: 50px;
+}
+
+#signup_btn{
+    text-align: center;
+    border-radius: 7px;
+    font-weight: 600;
+    border: #ebad05;
+    background: #DA281B;
+    padding: 4px 30px 4px;
+    color: white;
+    margin-bottom: 35px;
+}
+
+#txt-log {
+    text-align: center;
+    font-size: 50px;
+    color: white;
+}
+
+#page_content {
+    align-items: center;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.button_cart{
+    background-color: #DA281B;
+    border: 0ch;
+    
+}
+.log{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
